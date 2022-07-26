@@ -9,10 +9,32 @@ body{
     border: 1px solid #333;
     margin: auto;
     padding: 15px;
+    position: relative;
+}
+
+.cabecera{
+    background-color: rgba(11, 47, 109, 0.933);
+    text-align: left;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    
+    
+
+}
+.cabecera span{
+    margin-left: 2rem;
 }
 
 h1{
     color: blueviolet;
+    margin-top: 2.5rem;
 }
 p{
     font-size: 18px;
