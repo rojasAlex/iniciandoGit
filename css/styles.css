@@ -4,6 +4,13 @@ body{
     font-family: "Arial";
 }
 
+.container{
+    width: 500px;
+    border: 1px solid #333;
+    margin: auto;
+    padding: 15px;
+}
+
 h1{
     color: blueviolet;
 }
