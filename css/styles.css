@@ -16,7 +16,7 @@ body{
 .cabecera{
     background-color: rgba(11, 47, 109, 0.933);
     text-align: left;
-    height: 40px;
+    height: 60px;
     position: absolute;
     top: 0;
     left: 0;
@@ -31,6 +31,15 @@ body{
 }
 .cabecera span{
     margin-left: 2rem;
+}
+
+.cabecera .foto{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    transform: rotate(40deg);
+    margin: 0 1rem 0;
 }
 
 h1{
